@@ -1,0 +1,193 @@
+body{
+	margin: 50px;
+}
+
+h1{
+	/*font-family: "Times New Roman"; */
+	font-size: 2rem;
+	text-align: center;
+	color: grey;
+    font-family: Georgia, serif;
+	letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+h2{
+	font-family: "Times New Roman";
+	font-size: 2rem;
+	text-align: center;
+	color: maroon;
+	margin-bottom: 5px;
+	margin-top: 40px;
+}
+.section {
+	border-top: 2px solid maroon;
+}
+.section h4{
+	font-family: "Times New Roman";
+	font-size: 15;
+	/*border-top: 3px solid maroon;*/
+	color: black;
+	margin-bottom: 5px;
+	
+}
+.section p{
+	font-family: "Times New Roman";
+	font-size: 15;
+	/*border-top: 3px solid maroon;*/
+	color: black;
+	
+}
+#listone {
+	/*position: relative;*/
+	font-family: "Times New Roman";
+	font-size: 14;
+	/*border-top: 3px solid maroon;*/
+	color: black;
+	list-style-type: disc;
+	columns: 2;
+	-webkit-columns: 2;
+	/*width: auto;*/
+	-moz-columns:2;
+	list-style-position: inside;
+	z-index: 2;
+	margin-left: -5%;
+	margin-right: -5%;
+}
+.section h5{
+	font-family: "Times New Roman";
+	font-size: 15;
+	color: black;
+	border: none;
+}
+#listtwo {
+	font-family: "Times New Roman";
+	font-size: 15;
+	color: black;
+	
+}
+#listthree {
+	font-family: "Times New Roman";
+	font-size: 15;
+	color: black;
+}
+.information {
+    text-align: center;
+    text-transform: capitalize;
+}
+.codeAcademy {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: black; /*maroon;*/
+    /*border-bottom: 1px dotted maroon;*/
+}
+.arcgis {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: maroon;
+    border-bottom: 1px dotted maroon;
+}
+.github {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: maroon;
+    border-bottom: 1px dotted maroon;
+}
+
+
+/*POPUPS*/
+
+.codeAcademy .codeAc {
+    visibility: hidden;
+    width: 120px;
+    background-color: maroon;
+    color: #fff;
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 6px;
+    top: 100%;
+    margin-left: -50%;
+    position: absolute;
+    z-index: 1;
+}
+
+/*
+.codeAcademy:hover .codeAc {
+    visibility: visible;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.5);
+    /*z-index: 200;*/
+    /*
+}
+*/
+.arcgis .arc {
+    visibility: hidden;
+    width: 120px;
+    background-color: maroon;
+    color: #fff;
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 6px;
+    margin-left: 5px;
+    top: 100%;
+    margin-left: -50%;
+    /*overflow: hidden;*/
+    position: absolute;
+    z-index: 1;
+}
+
+
+.arcgis:hover .arc {
+    visibility: visible;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.5);
+}
+
+.github .git {
+    visibility: hidden;
+    width: 120px;
+    background-color: maroon;
+    color: #fff;
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 6px;
+    margin-left: 5px;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+
+.github:hover .git {
+    visibility: visible;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.5);
+}
+
+.kapsig {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: maroon;
+    border-bottom: 1px dotted maroon;
+}
+
+.kapsig .kap {
+    visibility: hidden;
+    width: 120px;
+    background-color: maroon;
+    color: #fff;
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 6px;
+    margin-left: 5px;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+
+.kapsig:hover .kap {
+    visibility: visible;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.5);
+}
