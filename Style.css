@@ -1,5 +1,12 @@
 body{
-	margin: 50px;
+	/*margin: 50px;*/
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+li {
+	padding-bottom: 10px;
 }
 
 h1{
@@ -7,13 +14,13 @@ h1{
 	font-size: 2rem;
 	text-align: center;
 	color: grey;
-    font-family: Georgia, serif;
+    font-family: Georgia, serif; /* "arial"; */
 	letter-spacing: 1.5px;
     text-transform: uppercase;
     margin-bottom: 0px;
 }
 h2{
-	font-family: "Times New Roman";
+	font-family: "Times New Roman"; /* "arial"; */
 	font-size: 2rem;
 	text-align: center;
 	color: maroon;
@@ -24,7 +31,7 @@ h2{
 	border-top: 2px solid maroon;
 }
 .section h4{
-	font-family: "Times New Roman";
+	font-family: "Times New Roman"; /* "arial"; */
 	font-size: 15;
 	/*border-top: 3px solid maroon;*/
 	color: black;
@@ -32,7 +39,7 @@ h2{
 	
 }
 .section p{
-	font-family: "Times New Roman";
+	font-family: "Times New Roman"; /* "arial"; */
 	font-size: 15;
 	/*border-top: 3px solid maroon;*/
 	color: black;
@@ -40,8 +47,8 @@ h2{
 }
 #listone {
 	/*position: relative;*/
-	font-family: "Times New Roman";
-	font-size: 14;
+	font-family: "Times New Roman"; /* "arial"; */
+	font-size: 15; 
 	/*border-top: 3px solid maroon;*/
 	color: black;
 	list-style-type: disc;
@@ -70,8 +77,8 @@ h2{
 	
 }
 #listthree {
-	font-family: "Times New Roman";
-	font-size: 15;
+	font-family: "Times New Roman"; /*arial;*/
+	font-size: 18;
 	color: black;
 }
 .information {
