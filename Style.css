@@ -51,8 +51,9 @@ h2{
 	-moz-columns:2;
 	list-style-position: inside;
 	z-index: 2;
-	margin-left: -5%;
+	/*margin-left: -5%;*/
 	margin-right: -5%;
+	
 }
 .section h5{
 	font-family: "Times New Roman";
