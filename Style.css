@@ -207,3 +207,26 @@ h2{
 #final {
 	padding-bottom: 5px;
 }
+
+.DHS {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: maroon;
+    border-bottom: 1px dotted maroon;
+}
+
+.DHS .dept {
+    visibility: hidden;
+    width: 120px;
+    background-color: maroon;
+    color: #fff;
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 6px;
+    margin-left: 5px;
+    position: absolute;
+    z-index: 1;
+    
+}
+
