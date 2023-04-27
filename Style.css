@@ -109,9 +109,13 @@ h2{
 .github {
     position: relative;
     display: inline-block;
-    text-decoration: none;
+    /*text-decoration: none;
     color: maroon;
-    border-bottom: 1px dotted maroon;
+    border-bottom: 1px dotted maroon;*/
+    text-decoration:underline;
+	text-decoration-style: dotted;
+	text-decoration-color: maroon;
+	color: maroon;
 }
 
 
@@ -184,9 +188,13 @@ h2{
 .kapsig {
     position: relative;
     display: inline-block;
-    text-decoration: none;
+    /*text-decoration: none;
     color: maroon;
-    border-bottom: 1px dotted maroon;
+    border-bottom: 1px dotted maroon;*/
+    text-decoration:underline;
+	text-decoration-style: dotted;
+	text-decoration-color: maroon;
+	color: maroon;
 }
 
 .kapsig .kap {
@@ -216,9 +224,13 @@ h2{
 .DHS {
     position: relative;
     display: inline-block;
-    text-decoration: none;
+    /*text-decoration: none;
     color: maroon;
-    border-bottom: 1px dotted maroon;
+    border-bottom: 1px dotted maroon;*/
+    text-decoration:underline;
+	text-decoration-style: dotted;
+	text-decoration-color: maroon;
+	color: maroon;
 }
 
 .DHS .dept {
