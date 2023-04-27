@@ -98,9 +98,13 @@ h2{
 .arcgis {
     position: relative;
     display: inline-block;
-    text-decoration: none;
+    /*text-decoration: none;
     color: maroon;
-    border-bottom: 1px dotted maroon;
+    border-bottom: 1px dotted maroon;*/
+    text-decoration:underline;
+	text-decoration-style: dotted;
+	text-decoration-color: maroon;
+	color: maroon;
 }
 .github {
     position: relative;
