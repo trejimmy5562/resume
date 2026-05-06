@@ -1,174 +1,621 @@
-<DOCTYPE! html>
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Jimmy Barnett — Data Engineer & GIS Programmer. Python, SQL, ETL/ELT Pipelines, Spatial Analytics, ArcGIS Pro, Streamlit, Pandas, LLM-Assisted Development, NLP, Ollama, REST API Integration. Texas A&M University." />
+  <meta name="keywords" content="Data Engineer, GIS Programmer, Python, SQL, ETL, ELT, Spatial Analytics, ArcGIS Pro, ArcPy, Streamlit, Pandas, GeoPandas, Data Modeling, Data Pipelines, Texas A&M, Jimmy Barnett, Civil Data, Geospatial, LiDAR, LLM, AI-Assisted Development, Ollama, NLP Sentiment Analysis, REST API Integration, Web Scraping, Data Pipeline Architecture, SQLite, Plotly, ChatGPT, Claude AI" />
+  <meta property="og:title" content="Jimmy Barnett | Data Engineer & AI-Assisted Developer" />
+  <meta property="og:description" content="Data Engineer specializing in ETL/ELT pipelines, spatial analytics, LLM-assisted development, and workflow automation. Texas A&M University." />
+  <meta property="og:url" content="https://trejimmy5562.github.io/resume/" />
+  <title>Jimmy Barnett | Data Engineer & GIS Programmer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
+<!-- ── Navigation ───────────────────────────────────────────── -->
+<nav>
+  <span class="nav-brand">J. Barnett</span>
+  <ul class="nav-links">
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">
+    <span class="theme-toggle-icon" id="theme-icon">🌙</span>
+    <span id="theme-label">Dark Mode</span>
+  </button>
+</nav>
 
+<!-- ── Hero ─────────────────────────────────────────────────── -->
+<section class="hero" id="home">
+  <div class="hero-grid"></div>
+  <div class="hero-inner">
+    <div>
+      <p class="hero-eyebrow">// Data Engineer &nbsp;·&nbsp; GIS Programmer &nbsp;·&nbsp; AI-Assisted Developer &nbsp;·&nbsp; Texas A&M University</p>
+      <h1 class="hero-name">Jimmy<br>Barnett</h1>
+      <p class="hero-title">
+        Building <strong>production-grade data pipelines</strong> and
+        <strong>spatial analytics systems</strong> that drive real decisions
+      </p>
+      <p class="hero-summary">
+        Data Engineer and GIS Programmer with a background spanning Python automation, ETL/ELT pipeline development, SQL databases, geospatial analysis, full-stack dashboard delivery, and LLM-assisted software development. Track record of leading cross-functional teams, coordinating complex stakeholder projects, and delivering production tools across engineering, federal research, and infrastructure domains — including independently built AI-assisted data pipelines and NLP analytics systems.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects ↓</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        <a href="https://github.com/trejimmy5562" target="_blank" class="btn btn-outline">GitHub ↗</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <p class="hero-card-label">// Core Technology Stack</p>
+      <div class="skill-pill-group">
+        <span class="skill-pill">Python</span>
+        <span class="skill-pill">SQL</span>
+        <span class="skill-pill">ETL / ELT</span>
+        <span class="skill-pill">Pandas</span>
+        <span class="skill-pill">GeoPandas</span>
+        <span class="skill-pill">ArcGIS Pro</span>
+        <span class="skill-pill">ArcPy</span>
+        <span class="skill-pill">Streamlit</span>
+        <span class="skill-pill">Plotly</span>
+        <span class="skill-pill">SQLite</span>
+        <span class="skill-pill">MySQL</span>
+        <span class="skill-pill">Oracle SQL</span>
+        <span class="skill-pill">Git / GitHub</span>
+        <span class="skill-pill">JavaScript</span>
+        <span class="skill-pill">Ollama</span>
+        <span class="skill-pill">R</span>
+      </div>
+      <div class="hero-stat-row">
+        <div class="hero-stat">
+          <div class="hero-stat-num">5+</div>
+          <div class="hero-stat-desc">Years Engineering</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">10+</div>
+          <div class="hero-stat-desc">Languages &amp; Tools</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">DHS</div>
+          <div class="hero-stat-desc">Federal Research</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">3+</div>
+          <div class="hero-stat-desc">US Regions Served</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-<html>
-	<head>
-		<link href="./Style.css" type="text/css" rel="stylesheet">
-		<title>My Resume</title>
-	</head>
-	
-	<body>
-		
-        <h1>Jimmy C. Barnett</h1>
-		
-		<div class="section">
-			<h4 class="information">email: trejimmy5562@gmail.com | phone: (469) 469-4593 | address: 6415 Shady Brook Ln</h4>
-		</div>
-		<h2><strong>Professional Summary</strong></h2>
-		<div class ="section">
-			<p>An ambitious and hardworking GIS student with strong communication skills and the ability to learn complex concepts quickly. Often working with software and IT, continuously looking to improve and streamline processes through automation. Looking for full-time employment that is meaningful, challenging, and will lead to opportunities in the future. I am always looking to develop new skills and strengthen those I have been practicing.</p>
-		</div>
-		<h2><strong>Education</strong></h2>
-		<div class ="section">
-			<p>Bachelor of Science: Geographic Information Science and Technology <br />Texas A&M University | 2021<br />College Station, TX, United States</p>
-		</div>
-		<h2><strong>Core Qualifications</strong></h2>
-		<!--VVTHIS SECTION NEEDS TO BE REFORMATTEDVV-->
-		<div class ="section">
-			<ul id="listone">
-				<li><!--<a href="https://www.codecademy.com/trejimmy5562" class="codeAcademy">-->Programming experience in Python, R, css, html, Javascript, php, <span style="margin-left: 1em">LISP, and more</span><!--<span class="codeAc">Click to view a few of my completed CodeAcademy courses.</span>--></a></li>
-				<li><a href="https://github.com/trejimmy5562/ArcGIS-maps" class="arcgis">Experience with ESRI products suite (ArcMap, ArcCatalog,<br> ArcGIS Pro, etc.)<span class="arc">Click to view some sample ArcGIS projects.</span></a></li>
-				<li>Processed high resolution imagery for analysis and map making</li>
-				<li>Strong in marketing and customer interaction</li>
-				<!--This is where the list splits in two-->
-				<li>Experience using ENVI software for extremely accurate image <span style="margin-left: 1em">processing</span></li>
-				<li>Oracle SQL, MySQL, Oracle Spatial Data Function, and <span style="margin-left: 1em">Geodatabases</span></li>
-				<li><a href="https://github.com/trejimmy5562" class="github">Experienced working with Git/Github<span class="git">Click to view my public Github Repositories.</span></a></li>
-				<li>Experience with Spatial query, Georeferencing, and many other <span style="margin-left: 1em">GIS analytical tools</span></li>
-				<li>Photogrammetry, noise removal, working with RADAR, LiDAR, and <span style="margin-left: 1em">visible light data, multispectral, hyperspectral data, satellite image</span><br><span style="margin-left: 1em"> processing with ENVI</span></li>
-				<li>Competent in Office Products and Google Docs</li>
-				<li>Experience in IT with Windows, Linux and Unix systems and <span style="margin-left: 1em">computer networking</span></li>
-			</ul>
-		</div>
-		<!--^^THIS SECTION NEEDS TO BE REFORMATTED^^-->
-		<h2><strong>Professional Experience</strong></h2>
-		<div class ="section">
-			
-			<h4> Dynamic Engineering PC | Design Engineer | Allen, TX | July 2023-Present </h4>
-			<ul id="listtwo">
-				<li>Designing complete Civil Plan sets for commercial, industrial and residential developments from start to finish
-throughout Texas, per the relevant governing bodies' specifications and running coordination for all stakeholders in a new development.</li>
-				<li>Led a team in the production of plans, coordinating the permitting process with the governing bodies and managing relevant stakeholders and subcontractors in new developments.</li>
-				<li>Utilized strong interpersonal skills to maintain and strengthen client relationships. Relying on exceptional technical skills, timely deliverables, responsive teams, and frequent, detailed status reports. </li>
-			</ul>
-			
-			<h4> Kimley-Horn and Associates | Civil Analyst | Frisco, TX | January 2022-June 2023 </h4>
-			<ul id="listtwo">
-				<li>Designing and Drafting plan sheets for single family developments from start to finish
-across multiple states, including Roadway, Grading, Utilities, Storm, Erosion Control specifications.</li>
-				<li>Experience contributing to commercial and industrial Sites, using skills to design and develop Construction Drawings and deliver excellent client services to support development, including utility coordination and permitting.</li>
-				<li>Worked on improving processes and speed of delivery utilizing AutoCAD automation.</li>
-				<li>Using ESRI ArcMap and ArcGIS Pro to process and analyze data for use in the development of construction drawings.</li>
-			</ul>
-			
-			<h4> Texas A&M Civil Engineering | Project Lead | College Station, TX | April 2021-November 2021 </h4>
-			<ul id="listtwo">
-				<li><a href="https://r13-cbts-sgl.engr.tamu.edu/" class="DHS">Contracted under Department of Homeland Security CBTS to research risks to cross border supply chains.<span class="dept">Click to view the project website. </span></a></li>
-				<li>Led a team in the development of an online platform to help connect businesses and supply chains.</li>
-				<li>Helped create and publish monthly bulletins providing project updates.</li>
-				<li>Worked on an international team with each part helping to work towards the goal of assessing risks.</li>
-			</ul>
-			
-			<h4>Texas A&M Marketing and Communications | IT Technician | College Station, TX | August 2018-May 2021 </h4>
-			<ul id="listtwo">
-				<li>Built and configured automated deployment servers for both Mac and Windows workstations.</li>
-				<li>Secure and deploy machines on the private network and maintain them daily.</li>
-				<li>Helped prepare for audit shortly after being hired, and worked on updating and securing old and outdated software and hardware. </li>
-				<li>Wrote scripts to help automate the workflow on repetitive tasks.</li>
-			</ul>
-			<h4>Digital BSI | Contractor | College Station, TX | August 2019-Present </h4>
-			<ul id="listtwo">
-				<li>Helped organize database, create automated invoice reports.</li>
-				<li>Working on creating web map project for sales associates to increase efficiency.</li>
-			</ul>
-			
-			<h4>Calvary Court and The George Hotel | Banquet Bartender and Server | College Station, TX | November 2017-August 2018</h4>
-			<ul id="listtwo">
-				<li>Provided strong Leadership and Customer Service skills utilizing teamwork with other servers and bar tenders to expedite work.</li>
-				<li>Provide an exceptional experience to customers with excellent customer service and interpersonal skills.</li>
-			</ul>
-			
-			<h4>The Home Depot | Paint Sales Associate and Cashier | Fort Worth, TX | May 2017-August 2017</h4>
-			<ul id="listtwo">
-				<li>Provided excellent customer service and sales skills.</li>
-				<li>Utilizing specialized computer software to mix and create paint.</li>
-                <li>Responsible for running paint desk at open/close.</li>
-			</ul>
-			<h4>Ace Hardware | Sales Associate and Cashier | Fort Worth, TX | May 2015-January 2016</h4>
-			<ul id="listtwo">
-				<li>Delivered exceptional service by greeting and helping customers in a timely, friendly manner.</li>
-				<li>Excelled beyond job title to learn valuable skills to aid customers in a variety of ways including glass cutting, pipe fixing and pipe cutting/threading. The only sales person to take initiative to learn every piece of machinery in store and the Cash Register to help a customer from the time they walked into the door to the time they left.</li>
-			</ul>
-			<h4>Canes Chicken | Sales Associate and Cashier | Fort Worth, TX | 2017</h4>
-			<ul id="listtwo">
-				<li>Delivered exceptional service.</li>
-				<li>Took initiative to be trained on all store operations.</li>
-			</ul>
-			
-		</div>
-		
-		<h2><strong>Example Projects</strong></h2>
-		<div class ="section">
-			<ul>
-				<li><h4><a href="https://github.com/trejimmy5562/Digital-Oil-Field-Project" class="github">Digital Oil Field Capstone Project<span class="git">Click to view the project hosted on Github.</span></a></h4></li>
-				<li><h4>Example <a href="https://github.com/trejimmy5562/arcGISBufferToolbox" class="github">custom ArcGIS Pro tool<span class="git">Click to view the tool hosted on Github.</span></a> made with ArcPy</h4></li>
-				<li><h4>Example <a href="https://github.com/trejimmy5562/ArcGIS-maps" class="github">ArcGIS maps<span class="git">Click to view the maps hosted on Github.</span></a></h4></li>
-			</ul>
-		</div>			
-		
-		<h2><strong>Activities and Honors</strong></h2>
-		<div class="section">
-			<h4>Wicked Woods | Fundraising Chair | 2019</h4>
-			<ul id="listthree">
-				<li>Fundraise in the Bryan/College Station to raise money for Military Veterans.</li>
-				<li>Showed strong interpersonal and negotiation skills in getting businesses to donate to a good cause while also providing them value in the form of advertisement and perks.</li>
-				<li>Helped coordinate and execute on the largest haunted house experience in the Bryan College Station area.</li>
-			</ul>
-			<h4>The Association of Petroleum Surveying and Geomatics | Member | 2019-Present</h4>
-			<ul id="listthree">
-				<!--<li></li>
-				<li></li>-->
-			</ul>
-			<h4>Student Geosciences Council | Member | 2019-Present</h4>
-			<ul id="listthree">
-				<!--<li></li>
-				<li></li>-->
-			</ul>
-			<h4>Math Club | Member | 2016</h4>
-			<ul id="listthree">
-				<li>Solve complex, fun problems to boost math skills.</li>
-				<li>Use real world applications of algorithms and equations to help understand using math in the field. (i.e. creating an algorithm for how to untie a knot in a rope)</li>
-			</ul>
-			<h4>Big Event | Volunteer | 2017-2019</h4>
-			<ul id="listthree">
-				<li>Help the less fortunate in repairing, cleaning and landscaping homes.</li>
-				<li>Coordinating group of friends in utilizing teamwork to complete tasks in an organized manner.</li>
-			</ul>
-			<h4>Kappa Sigma Fraternity | Driving Coordinator, New Member Recruitment and WebMaster | 2017-2020</h4>
-			<ul id="listthree">
-				<li>(Spring 2017) As Driving Coordinator: Gave up weekends to coordinate a team of members to provide rides to and from places on weekend nights to ensure safety.</li>
-				<li>As Driving Coordinator: Learned valuable leadership and coordination skills; organization was imperative when leading a team of 20 men to ensure the safety of over 100 members.</li>
-				<li>(Fall 2017-2019) As New Member Recruitment Panel Member: Utilizing interpersonal and communication skills to attract new members to our organization.</li>
-				<li>As New Member Recruitment Panel Member: Learned important communication and recruiting skills selecting the best candidate possible to join our organization.</li>
-                <li>(Fall 2018) As WebMaster: maintain, run and improve the TAMU Kappa Sigma Website</li>
-                <li>As WebMaster: Social media management: boost social media presence, bring in new faces via social media through multiple posts a week, gaining followers, make sure all content is appropriate and representative of the organization. </li>
-			</ul>
-            <h4>Brothers Reaching Out | 2017-2019</h4>
-            <ul id="listthree">
-                <li>Participated in fundraising, creating resource tables, marketing, and coordinating events to raise awareness and money for the causes we were passionate about.</li>
-                <li>Educated people on the dangers of drunk and distracted driving, as well as partnered with the University Health Services to raise awareness and money for mental health issues on college campuses.</li>
-                <li>Plan, set up and run events to raise awareness and money for donation to Veterans, raised awareness amongst at-risk college students, as well as participate in smaller philanthropies such as can drives and bringing food to our local food bank and safety officials.</li>
-            </ul>
-            <h4 id="final">Department of Homeland Security Centers of Excellence Summit | <!--<br>-->
-Grand Challenge Tabletop Exercise participant | <!--<br>-->
-May 18, 2021
-</h4>
-			<h4>National Merit Scholar Semi-Finalist | 2015</h4>
-			<h4 id="final">AP Scholar With Honor | 2015</h4>
-		</div>
-		<div class="section"></div>
-	</body>
+<!-- ── Skills ────────────────────────────────────────────────── -->
+<section id="skills">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-eyebrow">// Capabilities</p>
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="section-rule"></div>
+    </div>
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <div class="skill-card-icon">🐍</div>
+        <div class="skill-card-title">Data Engineering & Pipeline Development</div>
+        <div class="tag-list">
+          <span class="tag">Python</span>
+          <span class="tag">ETL / ELT Pipeline Design</span>
+          <span class="tag">Data Modeling</span>
+          <span class="tag">Workflow Automation</span>
+          <span class="tag">Batch Data Processing</span>
+          <span class="tag">Data Transformation</span>
+          <span class="tag">Data Integration</span>
+          <span class="tag">Scripting and Scheduling</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-icon">🗄️</div>
+        <div class="skill-card-title">Databases & Structured Data Systems</div>
+        <div class="tag-list">
+          <span class="tag">SQL</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">Oracle SQL</span>
+          <span class="tag">Oracle Spatial Data Functions</span>
+          <span class="tag">SQLite</span>
+          <span class="tag">Geodatabases (ESRI)</span>
+          <span class="tag">Spatial Queries</span>
+          <span class="tag">Database Design</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-icon">📐</div>
+        <div class="skill-card-title">Geospatial Analysis & Remote Sensing</div>
+        <div class="tag-list">
+          <span class="tag">ArcGIS Pro</span>
+          <span class="tag">ArcMap</span>
+          <span class="tag">ArcPy Scripting</span>
+          <span class="tag">ArcCatalog</span>
+          <span class="tag">ENVI Software</span>
+          <span class="tag">LiDAR Processing</span>
+          <span class="tag">Photogrammetry</span>
+          <span class="tag">Multispectral Imagery Analysis</span>
+          <span class="tag">Hyperspectral Data Processing</span>
+          <span class="tag">Satellite Image Processing</span>
+          <span class="tag">Georeferencing</span>
+          <span class="tag">Spatial Joins and Overlay Analysis</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-icon">📊</div>
+        <div class="skill-card-title">Data Analysis & Visualization</div>
+        <div class="tag-list">
+          <span class="tag">Pandas</span>
+          <span class="tag">GeoPandas</span>
+          <span class="tag">Statistical Analysis</span>
+          <span class="tag">Spatial Analysis</span>
+          <span class="tag">R Programming</span>
+          <span class="tag">Streamlit Dashboard Development</span>
+          <span class="tag">Plotly Interactive Charts</span>
+          <span class="tag">NLP Sentiment Analysis</span>
+          <span class="tag">Microsoft Excel</span>
+          <span class="tag">Google Workspace</span>
+          <span class="tag">Data Reporting and Presentation</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-icon">🌐</div>
+        <div class="skill-card-title">Web Development & Systems Engineering</div>
+        <div class="tag-list">
+          <span class="tag">JavaScript</span>
+          <span class="tag">HTML5 and CSS3</span>
+          <span class="tag">PHP</span>
+          <span class="tag">AutoLISP and LISP Scripting</span>
+          <span class="tag">ESRI JavaScript API</span>
+          <span class="tag">Web Mapping Application Development</span>
+          <span class="tag">Git and GitHub Version Control</span>
+          <span class="tag">Linux and Unix Systems</span>
+          <span class="tag">Windows Server Administration</span>
+          <span class="tag">Computer Networking</span>
+          <span class="tag">MDM and Automated Deployment Systems</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-icon">🏗️</div>
+        <div class="skill-card-title">Civil Engineering & Spatial Data Integration</div>
+        <div class="tag-list">
+          <span class="tag">AutoCAD</span>
+          <span class="tag">Civil 3D</span>
+          <span class="tag">AutoCAD Automation Scripting</span>
+          <span class="tag">Plan Set Production</span>
+          <span class="tag">Grading and Utility Design</span>
+          <span class="tag">Roadway and Storm System Design</span>
+          <span class="tag">Construction Drawing Datasets</span>
+          <span class="tag">Permitting Coordination</span>
+          <span class="tag">Geospatial Data Integration into Design Workflows</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-icon">🤝</div>
+        <div class="skill-card-title">Leadership, Project Management & Stakeholder Coordination</div>
+        <div class="tag-list">
+          <span class="tag">Cross-Functional Team Leadership</span>
+          <span class="tag">Stakeholder Management</span>
+          <span class="tag">Project Coordination</span>
+          <span class="tag">Client Relationship Management</span>
+          <span class="tag">Technical Communication and Reporting</span>
+          <span class="tag">Permitting Process Coordination</span>
+          <span class="tag">Subcontractor Management</span>
+          <span class="tag">Federal Research Coordination</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-icon">📡</div>
+        <div class="skill-card-title">APIs, Data Ingestion & Automation Tools</div>
+        <div class="tag-list">
+          <span class="tag">REST API Integration</span>
+          <span class="tag">X (Twitter) API v2</span>
+          <span class="tag">Social Data Ingestion</span>
+          <span class="tag">Automated Report Generation</span>
+          <span class="tag">Shell Scripting</span>
+          <span class="tag">IT Workflow Automation</span>
+          <span class="tag">Invoice and Database Automation</span>
+          <span class="tag">Deployment Server Configuration</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-icon">🤖</div>
+        <div class="skill-card-title">AI-Assisted Development & LLM Integration</div>
+        <div class="tag-list">
+          <span class="tag">LLM-Assisted Software Development</span>
+          <span class="tag">Ollama — Local LLM Deployment</span>
+          <span class="tag">Claude AI (Anthropic)</span>
+          <span class="tag">ChatGPT (OpenAI)</span>
+          <span class="tag">Data Pipeline Architecture</span>
+          <span class="tag">Web Scraping and Automated Ingestion</span>
+          <span class="tag">End-to-End Pipeline Design without Frameworks</span>
+          <span class="tag">Modular Software Design</span>
+          <span class="tag">Applied AI Integration into Data Workflows</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── Professional Experience ───────────────────────────────── -->
+<section id="experience">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-eyebrow">// Work History</p>
+      <h2 class="section-title">Professional Experience</h2>
+      <div class="section-rule"></div>
+    </div>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-meta">
+          <span class="timeline-company">Dynamic Engineering Consultants</span>
+          <span class="timeline-role">Design Engineer</span>
+          <span class="timeline-date">2023 – Present</span>
+        </div>
+        <div class="timeline-location">📍 Allen, TX</div>
+        <ul class="timeline-bullets">
+          <li>Lead development and management of data-driven infrastructure design workflows across multiple concurrent projects spanning commercial, industrial, and residential developments throughout Texas and multiple US regions.</li>
+          <li>Built Python and AutoLISP automation scripts that streamlined engineering drafting and data processing workflows, reducing manual effort and improving delivery speed on full plan set production from kickoff to permitting.</li>
+          <li>Integrated geospatial datasets from ArcGIS Pro into structured design outputs to support permitting, planning, and construction documentation, improving site analysis accuracy across all active projects.</li>
+          <li>Managed cross-functional teams of engineers, subcontractors, and governing body representatives, coordinating all stakeholder communication through detailed technical status reports and direct client engagement.</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-meta">
+          <span class="timeline-company">Kimley-Horn and Associates</span>
+          <span class="timeline-role">Civil Analyst</span>
+          <span class="timeline-date">2022 – 2023</span>
+        </div>
+        <div class="timeline-location">📍 Frisco, TX</div>
+        <ul class="timeline-bullets">
+          <li>Developed full construction drawing datasets for single-family, commercial, and industrial developments across multiple US states, including roadway, grading, utility, storm system, and erosion control specifications.</li>
+          <li>Automated repetitive drafting and data processing tasks using AutoLISP scripting inside AutoCAD, measurably improving team throughput and reducing production time on plan deliverables.</li>
+          <li>Utilized ArcGIS Pro and SQL-based data systems to analyze, validate, and integrate geospatial data into engineering decision-making workflows and construction documentation packages.</li>
+          <li>Generated data visualizations and analytical outputs to support engineering decisions and communicate site conditions to clients and stakeholders across multi-state development projects.</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-meta">
+          <span class="timeline-company">Texas A&M Stochastic Geomatics Laboratory</span>
+          <span class="timeline-role">Project Lead</span>
+          <span class="timeline-date">2021</span>
+        </div>
+        <div class="timeline-location">📍 College Station, TX &nbsp;·&nbsp; Contracted under U.S. Department of Homeland Security — CBTS Center of Excellence</div>
+        <ul class="timeline-bullets">
+          <li>Led data research initiatives analyzing international cross-border supply chain risks caused by COVID-19, aggregating and transforming large international datasets into structured monthly analytical reports delivered directly to federal clients.</li>
+          <li>Developed a full-stack online platform to connect infrastructure stakeholders and supply chain partners, managing the complete development lifecycle from requirements definition through deployment.</li>
+          <li>Coordinated an international, multi-institutional research team, managing deliverable timelines, producing monthly project bulletins, and presenting progress to federal program officers.</li>
+          <li><strong>Selected as a participant in the Department of Homeland Security Centers of Excellence Summit — Grand Challenge Tabletop Exercise, May 2021</strong> — one of a small cohort of researchers chosen nationwide to contribute to a high-stakes federal scenario planning exercise focused on critical infrastructure and supply chain resilience.</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-meta">
+          <span class="timeline-company">Texas A&M University — Division of Marketing and Communications</span>
+          <span class="timeline-role">Information Technology Technician</span>
+          <span class="timeline-date">2018 – 2021</span>
+        </div>
+        <div class="timeline-location">📍 College Station, TX</div>
+        <ul class="timeline-bullets">
+          <li>Architected and deployed automated MDM and workstation deployment servers for Mac and Windows environments, supporting the division's complete endpoint fleet.</li>
+          <li>Authored Python and shell scripts to automate repetitive IT provisioning and maintenance workflows, significantly reducing per-device setup time and manual configuration overhead.</li>
+          <li>Secured and maintained all department machines on the private university network, including a successful pre-audit remediation effort that hardened legacy hardware and updated outdated software across the environment.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── Projects ───────────────────────────────────────────────── -->
+<section id="projects">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-eyebrow">// Portfolio</p>
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="section-rule"></div>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-img-placeholder">🐦</div>
+        <!-- Replace with: <img src="screenshots/sentiment_dashboard.png" alt="X Sentiment Dashboard" style="width:100%;height:190px;object-fit:cover;"> -->
+        <div class="project-body">
+          <h3 class="project-title">X (Twitter) Sentiment Analytics Pipeline</h3>
+          <p class="project-desc">End-to-end social data pipeline built on the X API v2 that ingests tweets by keyword, runs NLP sentiment scoring, stores results in a SQLite database, and surfaces insights through an interactive Streamlit dashboard with rolling averages, volatility tiers, and timestamped CSV export.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Streamlit</span>
+            <span class="tag">SQLite</span>
+            <span class="tag">NLP Sentiment Analysis</span>
+            <span class="tag">Plotly</span>
+            <span class="tag">X API v2</span>
+            <span class="tag">ETL Pipeline</span>
+          </div>
+          <div class="project-link-row">
+            <a href="https://github.com/trejimmy5562" class="project-link" target="_blank">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img-placeholder">🛢️</div>
+        <!-- Replace with: <img src="screenshots/oilfield.png" alt="Digital Oil Field" style="width:100%;height:190px;object-fit:cover;"> -->
+        <div class="project-body">
+          <h3 class="project-title">Digital Oil Field Capstone — Geospatial Routing Platform</h3>
+          <p class="project-desc">Geospatial routing and infrastructure analysis platform for oil field operations. Built with JavaScript and the ESRI JavaScript API, featuring interactive map layers, asset location tracking, spatial queries, and route optimization displayed in a full-stack web application.</p>
+          <div class="project-tags">
+            <span class="tag">JavaScript</span>
+            <span class="tag">ESRI JavaScript API</span>
+            <span class="tag">ArcGIS Online</span>
+            <span class="tag">Spatial Routing</span>
+            <span class="tag">HTML5 and CSS3</span>
+          </div>
+          <div class="project-link-row">
+            <a href="https://github.com/trejimmy5562/Digital-Oil-Field-Project" class="project-link" target="_blank">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img-placeholder">🔧</div>
+        <!-- Replace with: <img src="screenshots/buffer_tool.png" alt="ArcGIS Buffer Toolbox" style="width:100%;height:190px;object-fit:cover;"> -->
+        <div class="project-body">
+          <h3 class="project-title">Custom ArcGIS Pro Buffer Analysis Toolbox</h3>
+          <p class="project-desc">Custom ArcPy toolbox that extends ArcGIS Pro with an automated buffer analysis workflow. Accepts a CSV file and geodatabase as inputs and outputs buffered spatial geometries, eliminating manual GIS processing steps for recurring multi-layer analysis tasks.</p>
+          <div class="project-tags">
+            <span class="tag">ArcPy</span>
+            <span class="tag">Python</span>
+            <span class="tag">ArcGIS Pro</span>
+            <span class="tag">Geodatabase</span>
+            <span class="tag">Geospatial Automation</span>
+          </div>
+          <div class="project-link-row">
+            <a href="https://github.com/trejimmy5562/arcGISBufferToolbox" class="project-link" target="_blank">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img-placeholder">🗺️</div>
+        <!-- Replace with: <img src="screenshots/webmap.png" alt="Interactive Web Map" style="width:100%;height:190px;object-fit:cover;"> -->
+        <div class="project-body">
+          <h3 class="project-title">Interactive Spatial Web Map Application</h3>
+          <p class="project-desc">Full-stack spatial web application built with JavaScript and the ESRI JavaScript API. Features interactive map layers, data-driven symbology, spatial queries, and a filtering interface designed to improve spatial data accessibility for non-technical field users.</p>
+          <div class="project-tags">
+            <span class="tag">JavaScript</span>
+            <span class="tag">ESRI JavaScript API</span>
+            <span class="tag">ArcGIS Online</span>
+            <span class="tag">HTML5 and CSS3</span>
+            <span class="tag">Spatial Data Visualization</span>
+          </div>
+          <div class="project-link-row">
+            <a href="https://github.com/trejimmy5562/webmap_project" class="project-link" target="_blank">GitHub ↗</a>
+            <a href="https://www.arcgis.com/home/search.html?q=owner%3Atrejimmy5562_tamu" class="project-link" target="_blank">ArcGIS Online ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img-placeholder">🏛️</div>
+        <!-- Replace with: <img src="screenshots/dhs.png" alt="DHS Supply Chain Platform" style="width:100%;height:190px;object-fit:cover;"> -->
+        <div class="project-body">
+          <h3 class="project-title">DHS CBTS — Cross-Border Supply Chain Risk Analytics Platform</h3>
+          <p class="project-desc">Federal research platform contracted under the Department of Homeland Security Centers of Excellence CBTS program to assess COVID-19 impacts on international cross-border supply chains. Led aggregation and analysis of large international datasets, produced monthly analytical reports for federal clients, and developed a stakeholder connection web platform.</p>
+          <div class="project-tags">
+            <span class="tag">Federal Research</span>
+            <span class="tag">Data Aggregation</span>
+            <span class="tag">Analytical Reporting</span>
+            <span class="tag">Web Development</span>
+            <span class="tag">Team Leadership</span>
+            <span class="tag">Supply Chain Analytics</span>
+          </div>
+          <div class="project-link-row">
+            <a href="https://r13-cbts-sgl.engr.tamu.edu/" class="project-link" target="_blank">Project Site ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img-placeholder">⚙️</div>
+        <!-- Replace with: <img src="screenshots/scripts.png" alt="Work Scripts" style="width:100%;height:190px;object-fit:cover;"> -->
+        <div class="project-body">
+          <h3 class="project-title">Engineering & IT Workflow Automation Library</h3>
+          <p class="project-desc">Collection of Python, shell, and AutoLISP scripts built to automate real production workflows including MDM deployment server provisioning, automated invoice generation, batch database cleanup, and AutoCAD drafting acceleration scripts actively used in engineering environments.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Shell Scripting</span>
+            <span class="tag">AutoLISP</span>
+            <span class="tag">AutoCAD Automation</span>
+            <span class="tag">Database Automation</span>
+            <span class="tag">MDM Deployment</span>
+          </div>
+          <div class="project-link-row">
+            <a href="https://github.com/trejimmy5562/WorkScripts" class="project-link" target="_blank">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── Education ─────────────────────────────────────────────── -->
+<section id="education">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-eyebrow">// Academic Background</p>
+      <h2 class="section-title">Education</h2>
+      <div class="section-rule"></div>
+    </div>
+
+    <div class="edu-card">
+      <div>
+        <div class="edu-degree">Bachelor of Science — Geographic Information Science and Technology</div>
+        <div class="edu-concentration">Concentration: Computation, Design and Analysis</div>
+        <div class="edu-school">Texas A&M University</div>
+        <div class="edu-meta">College Station, TX &nbsp;·&nbsp; Class of 2021</div>
+      </div>
+      <div class="edu-badges">
+        <div class="edu-badge">
+          <div class="edu-badge-label">Research</div>
+          <div class="edu-badge-val">DHS CoE</div>
+        </div>
+        <div class="edu-badge">
+          <div class="edu-badge-label">Program</div>
+          <div class="edu-badge-val">GIS&T</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-eyebrow" style="margin-top: 52px; margin-bottom: 22px;">// Honors, Activities &amp; Recognition</div>
+    <div class="honors-grid">
+
+      <div class="honor-card featured">
+        <div class="honor-title">⭐ DHS Centers of Excellence Summit — Grand Challenge Tabletop Exercise</div>
+        <div class="honor-sub">Department of Homeland Security · May 2021 · Selected nationwide participant in federal critical infrastructure scenario planning exercise</div>
+      </div>
+
+      <div class="honor-card">
+        <div class="honor-title">National Merit Scholar Semi-Finalist</div>
+        <div class="honor-sub">2015 · Top-tier standardized academic recognition</div>
+      </div>
+
+      <div class="honor-card">
+        <div class="honor-title">Association of Petroleum Surveying and Geomatics</div>
+        <div class="honor-sub">Member · 2019 – 2021</div>
+      </div>
+
+      <div class="honor-card">
+        <div class="honor-title">Student Geosciences Council</div>
+        <div class="honor-sub">Member · 2019 – 2021</div>
+      </div>
+
+      <div class="honor-card">
+        <div class="honor-title">Kappa Sigma — WebMaster, Recruitment &amp; Driving Coordinator</div>
+        <div class="honor-sub">Chapter leadership in digital operations, member recruitment, and safety coordination · 2017 – 2020</div>
+      </div>
+
+      <div class="honor-card">
+        <div class="honor-title">Wicked Woods — Fundraising Chair</div>
+        <div class="honor-sub">Military veteran fundraising, Bryan / College Station area · 2019</div>
+      </div>
+
+      <div class="honor-card">
+        <div class="honor-title">Brothers Reaching Out — Event Organizer</div>
+        <div class="honor-sub">Mental health and veteran advocacy, campus outreach programming · 2017 – 2019</div>
+      </div>
+
+      <div class="honor-card">
+        <div class="honor-title">Big Event — Volunteer Coordinator</div>
+        <div class="honor-sub">Community service, home repair and landscaping for underserved residents · 2017 – 2019</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── Contact ────────────────────────────────────────────────── -->
+<section class="contact-section" id="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div>
+        <h2 class="contact-heading">Let's build<br>something together.</h2>
+        <p class="contact-sub">
+          Open to Data Engineering, Analytics Engineering, GIS Developer, and Spatial Data roles.
+          Available for full-time positions and contract engagements across Texas and remote.<br><br>
+          Particularly interested in teams working at the intersection of data infrastructure
+          and geospatial or civil infrastructure analytics.
+        </p>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:JimmyCBarnett@gmail.com" class="contact-link">
+          <span class="contact-link-icon">✉</span>
+          <div>
+            <div class="contact-link-label">Email</div>
+            <div class="contact-link-val">JimmyCBarnett@gmail.com</div>
+          </div>
+        </a>
+        <a href="tel:4694694593" class="contact-link">
+          <span class="contact-link-icon">📞</span>
+          <div>
+            <div class="contact-link-label">Phone</div>
+            <div class="contact-link-val">(469) 469-4593</div>
+          </div>
+        </a>
+        <a href="https://github.com/trejimmy5562" target="_blank" class="contact-link">
+          <span class="contact-link-icon">⌥</span>
+          <div>
+            <div class="contact-link-label">GitHub — Personal</div>
+            <div class="contact-link-val">github.com/trejimmy5562</div>
+          </div>
+        </a>
+        <a href="https://github.tamu.edu/trejimmy5562" target="_blank" class="contact-link">
+          <span class="contact-link-icon">🎓</span>
+          <div>
+            <div class="contact-link-label">GitHub — Texas A&M University</div>
+            <div class="contact-link-val">github.tamu.edu/trejimmy5562</div>
+          </div>
+        </a>
+        <a href="https://www.arcgis.com/home/search.html?q=owner%3Atrejimmy5562_tamu" target="_blank" class="contact-link">
+          <span class="contact-link-icon">🗺️</span>
+          <div>
+            <div class="contact-link-label">ArcGIS Online Portfolio</div>
+            <div class="contact-link-val">trejimmy5562_tamu on ArcGIS Online</div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <span>© 2026 Jimmy Barnett &nbsp;·&nbsp; College Station, TX</span>
+      <span>Built with HTML &amp; CSS &nbsp;·&nbsp; Hosted on GitHub Pages</span>
+    </div>
+  </div>
+</section>
+
+<script>
+  function toggleTheme() {
+    const html = document.documentElement;
+    const isDark = html.getAttribute('data-theme') === 'dark';
+    html.setAttribute('data-theme', isDark ? 'light' : 'dark');
+    document.getElementById('theme-icon').textContent  = isDark ? '🌙' : '☀️';
+    document.getElementById('theme-label').textContent = isDark ? 'Dark Mode' : 'Light Mode';
+    localStorage.setItem('theme', isDark ? 'light' : 'dark');
+  }
+
+  (function () {
+    const saved = localStorage.getItem('theme');
+    if (saved === 'dark') {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      document.getElementById('theme-icon').textContent  = '☀️';
+      document.getElementById('theme-label').textContent = 'Light Mode';
+    }
+  })();
+</script>
+
+</body>
 </html>
-
-
