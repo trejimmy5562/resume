@@ -21,8 +21,8 @@
 ──────────────────────────────────────────────────────────────── */
 
 /* ── Variables: Light Mode ── */
+/*
 :root {
-  --bg: #ffffff;
   --bg-alt: #f6f6f6;
   --bg-card: #ffffff;
   --bg-card-hover: #f6f6f6;
@@ -63,9 +63,11 @@
   --project-placeholder-bg: rgba(80,0,0,0.05);
   --project-link-color: #500000;
 }
-
+*/
 /* ── Variables: Dark Mode ── */
-[data-theme="dark"] {
+/*[data-theme="dark"] */
+
+:root {
   --bg-page:      #181412;
   --bg-alt:       #1E1A18;
   --bg-card:      #232018;
@@ -984,7 +986,7 @@ section:nth-child(odd) {
   </ul>
   <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">
     <span class="theme-toggle-icon" id="theme-icon">🌙</span>
-    <span id="theme-label">Dark Mode</span>
+    <!--<span id="theme-label">Dark Mode</span>-->
   </button>
 </nav>
 
