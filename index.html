@@ -638,7 +638,7 @@ section:nth-child(odd) {
 
 .project-img-placeholder {
   width: 100%;
-  height: 190px;
+  height: 196px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -647,6 +647,12 @@ section:nth-child(odd) {
   color: rgba(255, 255, 255, 0.25);
   position: relative;
   overflow: hidden;
+}
+
+.project-img-placeholder img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover; /* or 'contain' */
 }
 
 .project-img-placeholder::after {
@@ -1400,7 +1406,7 @@ section:nth-child(odd) {
       </div>
 
       <div class="project-card">
-        <div class="project-img-placeholder"><img src="screenshots/ash_Script.png" alt="webmap">B</div>
+        <div class="project-img-placeholder"><img src="screenshots/Bash_Script.png" alt="webmap"></div>
         <!-- Replace with: <img src="screenshots/scripts.png" alt="Work Scripts" style="width:100%;height:190px;object-fit:cover;"> -->
         <div class="project-body">
           <h3 class="project-title">Engineering & IT Workflow Automation Library</h3>
